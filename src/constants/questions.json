@@ -1,0 +1,25 @@
+[
+    {
+    "question":"what is the largest planet on solar system",
+"answerOptions":[
+    {"text":"Saturn","isCorrect":false},
+    {"text":"mars","isCorrect":false},
+    {"text":"jupiter","isCorrect":false},
+    {"text":"earth","isCorrect":true}
+
+]
+},
+{
+    "question":"what is the largest platform of social media",
+"answerOptions":[
+    {"text":"youtube","isCorrect":false},
+    {"text":"instagram","isCorrect":false},
+    {"text":"faceboook","isCorrect":false},
+    {"text":"X","isCorrect":true}
+
+]
+}
+
+
+
+]
