@@ -29,3 +29,34 @@
     border-radius: 12px;
     border: none;
 }
+.results{
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+.results ul {
+    list-style: none;
+    padding: 0;
+
+}
+.results span {
+    color: red;
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+
+}
+.results li {
+    margin-bottom: 10px;
+}
+.results li[data-correct="true"]{
+    color: green;
+}
+.results li[data-correct="false"]{
+    color: red;
+    
+}
