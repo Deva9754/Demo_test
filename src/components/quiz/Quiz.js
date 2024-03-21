@@ -27,11 +27,13 @@ const Quiz = () => {
           onAnswerClick={handleNextQuestion}
         />
       )}
-      <Result
-        userAnswers={userAnswers}
-        questions={question}
-        resetQuiz={resetQuiz}
-      />
+      {currentQuestion === question.length && (
+        <Result
+          userAnswers={userAnswers}
+          questions={question}
+          resetQuiz={resetQuiz}
+        />
+      )}
     </div>
   );
 };
