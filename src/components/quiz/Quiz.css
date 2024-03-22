@@ -41,7 +41,7 @@
     padding: 0;
 
 }
-/* .results span {
+ .results span {
     color: red;
     font-weight: 800;
     text-decoration: underline;
@@ -49,8 +49,8 @@
 
 
 
-} */
-/* .results li {
+} 
+.results li {
     margin-bottom: 10px;
 }
 .results li[data-correct="true"]{
@@ -59,4 +59,4 @@
 .results li[data-correct="false"]{
     color: red;
     
-} */
+} 
