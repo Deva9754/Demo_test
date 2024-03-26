@@ -4,6 +4,7 @@ import { Login } from "./components/Login/Login";
 import { Loginb } from "./components/Login/AnotherLogin";
 import Cards from "./components/cards/Cards";
 import Quiz from "./components/quiz/Quiz";
+import Grid from "./components/selectable Grid/Grid";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <Cards />
       <Login />
       <Loginb /> */}
-      <Quiz />
+      {/* <Quiz /> */}
+      <Grid />
     </div>
   );
 }
