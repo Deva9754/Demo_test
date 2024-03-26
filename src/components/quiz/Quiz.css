@@ -36,7 +36,7 @@
     border-radius: 4px;
 
 }
-.results ul {
+/* .results ul {
     list-style: none;
     padding: 0;
 
@@ -59,4 +59,4 @@
 .results li[data-correct="false"]{
     color: red;
     
-} 
+}  */
