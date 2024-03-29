@@ -4,7 +4,7 @@
     grid-template-columns: repeat(var(--cols,10),35px);
     grid-template-rows: repeat(var(--cols,10),35px);
 gap: 2px;
-
+user-select: none;
 
 }
 body{
@@ -17,4 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.selected{
+    background-color: aquamarine;
 }
