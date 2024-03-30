@@ -17,8 +17,8 @@ const SelectableGrid = ({ rows = 10, cols = 10 }) => {
         const startBox = selectedBoxes[0];
         const endBox = boxNumber;
 
-        const startRow = Math.floor((startBox - 1) / cols); // Math.floor((23-1)/10) = 2
-        const startCol = (startBox - 1) % cols; // (23 -1)%10 = 22 % 10 = 2
+        const startRow = Math.floor((startBox - 1) / cols);
+        const startCol = (startBox - 1) % cols;
         const endRow = Math.floor((endBox - 1) / cols);
         const endCol = (endBox - 1) % cols;
 
