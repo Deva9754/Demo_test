@@ -9,6 +9,8 @@ user-select: none;
 }
 body{
     font-family: sans-serif;
+    font-weight: bolder;
+    margin: auto;
 }
 .box{
     width: 35px;
