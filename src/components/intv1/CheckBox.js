@@ -56,26 +56,7 @@
 //         </div>
 //       ))}
 
-//       {/* <div>
-//         <input type="checkbox" className="checkall" />
-//         <label className="checkall"> SelectAll </label>
-//       </div>
-//       <div>
-//         <input type="checkbox" className="checkall" />
-//         <label className="checkall"> Check1 </label>
-//       </div>
-//       <div>
-//         <input type="checkbox" className="checkall" />
-//         <label className="checkall"> check2 </label>
-//       </div>
-//       <div>
-//         <input type="checkbox" className="checkall" />
-//         <label className="checkall"> check3 </label>
-//       </div>
-//       <div>
-//         <input type="checkbox" className="checkall" />
-//         <label className="checkall"> check4 </label>
-//       </div> */}
+//
 //     </div>
 //   );
 // };
@@ -139,7 +120,7 @@ function CheckBox() {
             checked={user?.isChecked || false}
             onChange={handleChange}
           />
-          <label className="form-check-label ms-2">{user.name}</label>
+          <label>{user.name}</label>
         </div>
       ))}
     </div>
