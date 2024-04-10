@@ -36,27 +36,3 @@
     border-radius: 4px;
 
 }
-/* .results ul {
-    list-style: none;
-    padding: 0;
-
-}
- .results span {
-    color: red;
-    font-weight: 800;
-    text-decoration: underline;
-    cursor: pointer;
-
-
-
-} 
-.results li {
-    margin-bottom: 10px;
-}
-.results li[data-correct="true"]{
-    color: green;
-}
-.results li[data-correct="false"]{
-    color: red;
-    
-}  */
