@@ -16,7 +16,7 @@ export const Loginb = () => {
 
   return (
     <div>
-      <h1>Login Using target</h1>
+      {/* <h1>Login Using target</h1>
 
       <input type="text" placeholder="Enter your mail" onChange={handleEmail} />
       <input
@@ -25,7 +25,7 @@ export const Loginb = () => {
         onChange={handlePassword}
       />
       <p>{message}</p>
-      <button>Login</button>
+      <button>Login</button> */}
     </div>
   );
 };
